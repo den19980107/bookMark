@@ -1,0 +1,111 @@
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.header {
+  font-size: 13px;
+  font-weight: 300;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+  margin-bottom: 10px;
+}
+
+.login {
+  min-width: 150px;
+  background: rgb(238, 238, 238);
+  border: none;
+  padding: 15px 30px;
+  border-radius: 2px;
+}
+
+.login p {
+  font-size: 9px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.login input[type=text] {
+  height: 15px;
+  font-size: 9px;
+  padding: 3px;
+  border: none;
+  width: 100%;
+}
+
+.login input[type=text]::placeholder {
+  color: rgba(208, 208, 208, 1);
+  font-weight: 100;
+}
+
+.login button {
+  width: 60px;
+  border: 0;
+  background: rgb(76, 124, 176);
+  color: #fff;
+  font-weight: 200;
+  height: 20px;
+  margin: 10px -30px 10px -30px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
+.toptic {
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.booked {
+  width: 100%;
+  height: 40px;
+  margin-top: 15px;
+}
+
+.booked ul {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 0 5px;
+  margin: 0;
+  list-style: none;
+}
+
+.Vist {
+  height: 18px;
+  border: 0;
+  padding: 3px 7px;
+  font-size: 9px;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+
+.Delete {
+  height: 18px;
+  border: 0;
+  padding: 3px 7px;
+  font-size: 9px;
+  font-weight: lighter;
+  background: rgb(193, 76, 82);
+  color: #FFF;
+}
+
+.li {
+  height: 20px;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 13px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background: rgb(238, 238, 238);
+  border-radius: 2px;
+}
+
+.li button {
+  height: 18px;
+  border: 0;
+  padding: 3px 7px;
+  font-size: 9px;
+  font-weight: lighter;
+}
